@@ -1,0 +1,208 @@
+main.newslide {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  column-gap: 3rem;
+  padding-block: min(20vh, 3rem);
+}
+
+.swiper {
+  width: 100%;
+  padding: 1.875rem 0;
+}
+
+.swiper-slide {
+  width: 18.75rem;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+  box-shadow: 0.063rem 0.5rem 1.25rem rgba(0, 0, 0, 0.1216);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.swiper-slide-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  line-height: 0;
+  border-radius: 0.5rem;
+}
+.newslide.swiper-slide-img img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+  transform: rotate(-180deg);
+}
+.newslide.swiper-slide-img svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 5rem;
+  transform: rotateY(180deg);
+}
+.newslide.swiper-slide-img .newslide.shape-fill {
+  fill: #ffffff;
+}
+.newslide.swiper-slide-content {
+  background: #fff;
+  padding: 0 1.65rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  width: 100%;
+}
+.newslide.swiper-slide-content > div {
+  transform: translateY(-1.25rem);
+}
+.newslide.swiper-slide-content h2 {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-bottom: 0.425rem;
+  text-transform: capitalize;
+  letter-spacing: 0.02rem;
+}
+.newslide.swiper-slide-content p {
+  color: #000;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.newslide.swiper-slide-content .show-more {
+  width: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #24aad9;
+  border-radius: 50%;
+  box-shadow: 0px 0.125rem 0.875rem #24aad96b;
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+  height: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+  margin-left: auto;
+}
+.newslide.swiper-slide-content .show-more:hover {
+  background: #1184ac;
+}
+.newslide.swiper-slide-content .show-more svg {
+  width: 1.75rem;
+  color: #fff;
+}
+
+.newslide.swiper-slide-active:hover .show-more {
+  opacity: 1;
+  height: 3.125rem;
+}
+
+.newslide.swiper-slide-active:hover p {
+  display: block;
+  overflow: visible;
+}
+
+.newslide.swiper-3d .swiper-slide-shadow-left,
+.newslide.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+@media screen and (min-width: 93.75rem) {
+    .newslide.swiper {
+    width: 85%;
+  }
+}
+
+
+/*WHATSAPP */
+.balaoWhatsapp:hover .balaoWhatsappLegenda, .balaoWhatsapp:hover .balaoWhatsappLink{
+    background: #0da62b;
+}
+.balaoWhatsapp:hover .balaoWhatsappLegenda:after, .balaoWhatsapp:hover .balaoWhatsappLink:after{
+    border-top: 20px solid #0da62b;
+}
+.balaoWhatsappLegenda{
+    margin: 0 auto;
+    font-size: 0.85em;
+    line-height: 1.6em;
+    border-radius: 15px;
+    width: 130px;
+    height: auto;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 130px;
+    right: 20px;
+    text-align: center;
+    z-index: 9999999;
+    background: #18c139;
+    animation: posicao 1s ease infinite;
+}
+.balaoWhatsappLegenda:after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #18c139;
+    bottom: -20px;
+    right: 20px;
+}
+.balaoWhatsappLink{
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    z-index: 9999999;
+    background: #18c139;
+    animation: gradient 1s ease infinite;
+}
+.balaoWhatsappLink i{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+@keyframes gradient {
+    0% {
+        background-color: #18c139;
+    }
+    50% {
+        background-color: #0da52b;
+    }
+    100% {
+        background-color: #18c139;
+    }
+}
+@keyframes posicao {
+    0% {
+        bottom: 130px;
+        right: 20px;
+    }
+    50% {
+        bottom: 125px;
+        right: 20px;
+    }
+    100% {
+        bottom: 130px;
+        right: 20px;
+    }
+}
