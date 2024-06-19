@@ -188,27 +188,27 @@ td, th {
 }
 
 .w-icon-slider-right:before {
-  content: "î˜€";
+  content: "Ã®Ëœâ‚¬";
 }
 
 .w-icon-slider-left:before {
-  content: "î˜";
+  content: "Ã®ËœÂ";
 }
 
 .w-icon-nav-menu:before {
-  content: "î˜‚";
+  content: "Ã®Ëœâ€š";
 }
 
 .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-  content: "î˜ƒ";
+  content: "Ã®ËœÆ’";
 }
 
 .w-icon-file-upload-remove:before {
-  content: "î¤€";
+  content: "Ã®Â¤â‚¬";
 }
 
 .w-icon-file-upload-icon:before {
-  content: "î¤ƒ";
+  content: "Ã®Â¤Æ’";
 }
 
 * {
@@ -516,7 +516,7 @@ label {
   color: #333;
   vertical-align: middle;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #e6e6e6;
   width: 100%;
   height: 38px;
   margin-bottom: 10px;
@@ -527,16 +527,16 @@ label {
 }
 
 .w-input:-moz-placeholder, .w-select:-moz-placeholder {
-  color: #999;
+  color: #000000;
 }
 
 .w-input::-moz-placeholder, .w-select::-moz-placeholder {
-  color: #999;
+  color: #000000;
   opacity: 1;
 }
 
 .w-input::-webkit-input-placeholder, .w-select::-webkit-input-placeholder {
-  color: #999;
+  color: #000000;
 }
 
 .w-input:focus, .w-select:focus {
@@ -1052,7 +1052,7 @@ textarea.w-input, textarea.w-select {
 
 .w-widget-twitter-count-shim .w-widget-twitter-count-inner {
   text-align: center;
-  color: #999;
+  color: #000;
   font-family: serif;
   font-size: 15px;
   line-height: 12px;
@@ -2165,7 +2165,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commerceaddtocartquantityinput::placeholder {
-  color: #999;
+  color: #000000;
 }
 
 .w-commerce-commerceaddtocartquantityinput:focus {
@@ -2417,7 +2417,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecartquantity::placeholder {
-  color: #999;
+  color: #000000;
 }
 
 .w-commerce-commercecartquantity:focus {
@@ -2583,7 +2583,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutemailinput::placeholder {
-  color: #999;
+  color: #000000;
 }
 
 .w-commerce-commercecheckoutemailinput:focus {
@@ -2611,7 +2611,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutshippingfullname::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutshippingfullname:focus {
@@ -2635,7 +2635,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutshippingstreetaddress::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutshippingstreetaddress:focus {
@@ -2659,7 +2659,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutshippingstreetaddressoptional::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutshippingstreetaddressoptional:focus {
@@ -2695,7 +2695,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutshippingcity::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutshippingcity:focus {
@@ -2719,7 +2719,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutshippingstateprovince::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutshippingstateprovince:focus {
@@ -2743,7 +2743,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutshippingzippostalcode::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutshippingzippostalcode:focus {
@@ -2767,7 +2767,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutshippingcountryselector::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutshippingcountryselector:focus {
@@ -2837,7 +2837,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutcardnumber::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutcardnumber:focus, .w-commerce-commercecheckoutcardnumber.-wfp-focus {
@@ -2862,7 +2862,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutcardexpirationdate::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutcardexpirationdate:focus, .w-commerce-commercecheckoutcardexpirationdate.-wfp-focus {
@@ -2887,7 +2887,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutcardsecuritycode::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutcardsecuritycode:focus, .w-commerce-commercecheckoutcardsecuritycode.-wfp-focus {
@@ -2930,7 +2930,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutbillingfullname::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutbillingfullname:focus {
@@ -2954,7 +2954,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutbillingstreetaddress::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutbillingstreetaddress:focus {
@@ -2978,7 +2978,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutbillingstreetaddressoptional::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutbillingstreetaddressoptional:focus {
@@ -3002,7 +3002,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutbillingcity::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutbillingcity:focus {
@@ -3026,7 +3026,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutbillingstateprovince::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutbillingstateprovince:focus {
@@ -3050,7 +3050,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutbillingzippostalcode::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutbillingzippostalcode:focus {
@@ -3074,7 +3074,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-commerce-commercecheckoutbillingcountryselector::placeholder {
-  color: #999;
+  color: #000;
 }
 
 .w-commerce-commercecheckoutbillingcountryselector:focus {
@@ -3312,7 +3312,7 @@ h3 {
 
 a {
   color: var(--color--accent);
-  text-decoration: underline;
+  text-decoration: auto;
 }
 
 blockquote {
@@ -3334,8 +3334,8 @@ blockquote {
 }
 
 .section.accent {
-  background-color: var(--color--accent);
-  color: var(--color--light);
+  background-color: #e6e6e6;
+  color: var(--black);
 }
 
 .section.accent.manifestio-section {
@@ -3548,7 +3548,7 @@ blockquote {
 
 .subtitle {
   font-size: var(--type--subtitle);
-  font-weight: 500;
+  font-weight: 300;
   line-height: 130%;
 }
 
@@ -3561,6 +3561,14 @@ blockquote {
 
 .mg-top-25 {
   margin-top: 25px;
+}
+
+.mg-top-45 {
+  margin-top: 45px;
+}
+
+.mg-top-60 {
+  margin-top: 60px;
 }
 
 .text-style-h1 {
@@ -4144,7 +4152,7 @@ blockquote {
   grid-column-gap: 32px;
   grid-row-gap: 32px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   display: flex;
 }
 
@@ -4278,7 +4286,7 @@ blockquote {
 }
 
 .icon-quote {
-  height: 56px;
+  height: 7rem;
 }
 
 .text-manifesto-big {
@@ -4787,7 +4795,7 @@ blockquote {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 30px;
+  height: 92px;
   display: flex;
 }
 
@@ -4807,8 +4815,8 @@ blockquote {
 }
 
 .flex-top-footer {
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
 
@@ -4833,6 +4841,7 @@ blockquote {
 
 .text-legal-footer {
   font-size: 16px;
+  text-align: center;
 }
 
 .link-legal {
@@ -5724,7 +5733,8 @@ blockquote {
 }
 
 .icon-integration {
-  height: 46%;
+  height: 58%;
+  border-radius: 50%;
 }
 
 .single-integration-circles {
@@ -5741,7 +5751,6 @@ blockquote {
   grid-row-gap: 40px;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 720px;
   display: flex;
 }
 
@@ -6103,7 +6112,7 @@ blockquote {
 }
 
 .expandable-single-faq {
-  background-color: var(--color--elevation);
+  background-color: #ffffff;
   cursor: pointer;
   border-radius: 24px;
   padding: 32px 40px;
@@ -6149,7 +6158,7 @@ blockquote {
 }
 
 .plus-line {
-  background-color: var(--color--light);
+  background-color: #000000;
   border-radius: 2px;
   width: 18px;
   height: 2px;
@@ -6230,7 +6239,7 @@ blockquote {
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  max-width: 550px;
+  max-width: 610px;
   height: 740px;
   display: flex;
   position: relative;
@@ -6273,7 +6282,7 @@ blockquote {
 
 .grid-halves-space-right {
   grid-template-rows: auto;
-  grid-template-columns: 1fr 100px;
+  grid-template-columns: 1fr 64px;
 }
 
 .master-numbers {
@@ -6300,7 +6309,7 @@ blockquote {
 }
 
 .grid-number-big {
-  grid-column-gap: 112px;
+  grid-column-gap: 55px;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   max-width: 100%;
@@ -6308,11 +6317,11 @@ blockquote {
 
 .single-number {
   background-color: var(--color--background);
-  padding-top: 320px;
-  padding-bottom: 320px;
-  position: -webkit-sticky;
+  height: 100vh;
   position: sticky;
   top: 0;
+  align-items: center;
+  display: flex;
 }
 
 .single-number.white-number-single {
@@ -6522,9 +6531,8 @@ blockquote {
 }
 
 .text-field-contact {
-  border: 1px solid var(--color--grey);
-  background-color: var(--color--elevation);
-  color: var(--color--light);
+  background-color: #e6e6e6;
+  color: #000000;
   border-radius: 64px;
   height: 52px;
   margin-bottom: 0;
@@ -6538,7 +6546,7 @@ blockquote {
 }
 
 .text-field-contact::placeholder {
-  color: rgba(239, 239, 239, .4);
+  color: rgba(0, 0, 0, 0.671);
 }
 
 .success-message {
@@ -6613,7 +6621,7 @@ blockquote {
 }
 
 .tile-contact-form {
-  background-color: var(--color--elevation);
+  background-color: #ffffff;
   border-radius: 16px;
   flex-direction: column;
   width: 100%;
@@ -7877,7 +7885,7 @@ blockquote {
   }
 
   .marquee-wrap {
-    height: 600px;
+    height: 634px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -7901,6 +7909,7 @@ blockquote {
   .single-number {
     padding-top: 200px;
     padding-bottom: 200px;
+    position: relative;
   }
 
   .text-story-right {
@@ -8064,7 +8073,7 @@ blockquote {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 770px) {
   h1 {
     font-size: 53px;
   }
@@ -8542,7 +8551,7 @@ blockquote {
     text-align: center;
     grid-template-columns: 1fr;
     width: 100%;
-    max-width: 400px;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -8550,7 +8559,16 @@ blockquote {
   .single-number {
     padding-top: 160px;
     padding-bottom: 160px;
+    height: unset;
   }
+
+  .wrap-under-tech-stack {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
 
   .text-story-right {
     font-size: 28px;
@@ -9068,7 +9086,7 @@ blockquote {
   }
 
   .marquee-column {
-    width: 48%;
+    width: 50%;
   }
 
   .marquee-column.column-two, .marquee-column.column-one {
