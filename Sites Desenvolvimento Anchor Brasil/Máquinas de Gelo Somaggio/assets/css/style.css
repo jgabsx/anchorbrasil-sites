@@ -188,27 +188,27 @@ td, th {
 }
 
 .w-icon-slider-right:before {
-  content: "Ã®Ëœâ‚¬";
+  content: "ÃƒÂ®Ã‹Å“Ã¢â€šÂ¬";
 }
 
 .w-icon-slider-left:before {
-  content: "Ã®ËœÂ";
+  content: "ÃƒÂ®Ã‹Å“Ã‚Â";
 }
 
 .w-icon-nav-menu:before {
-  content: "Ã®Ëœâ€š";
+  content: "ÃƒÂ®Ã‹Å“Ã¢â‚¬Å¡";
 }
 
 .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-  content: "Ã®ËœÆ’";
+  content: "ÃƒÂ®Ã‹Å“Ã†â€™";
 }
 
 .w-icon-file-upload-remove:before {
-  content: "Ã®Â¤â‚¬";
+  content: "ÃƒÂ®Ã‚Â¤Ã¢â€šÂ¬";
 }
 
 .w-icon-file-upload-icon:before {
-  content: "Ã®Â¤Æ’";
+  content: "ÃƒÂ®Ã‚Â¤Ã†â€™";
 }
 
 * {
@@ -2090,9 +2090,9 @@ textarea.w-input, textarea.w-select {
   --font--main: Satoshi, sans-serif;
   --color--light: #efefef;
   --type--body-regular: 20px;
-  --type--h1: 94px;
-  --type--h2: 48px;
-  --type--h3: 34px;
+  --type--h1: 90px;
+  --type--h2: 43px;
+  --type--h3: 29px;
   --color--accent: #126fff;
   --color--elevation: #18191c;
   --color--grey: #59595b;
@@ -4290,7 +4290,7 @@ blockquote {
 }
 
 .text-manifesto-big {
-  font-size: 80px;
+  font-size: 75px;
   font-weight: 300;
   line-height: 120%;
 }
@@ -6329,7 +6329,7 @@ blockquote {
 }
 
 .text-story-right {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   line-height: 125%;
 }
